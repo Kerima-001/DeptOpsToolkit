@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS/Math Department Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body{
+            font-family:Arial;
+            background:#f4f6f9;
+            margin:20px;
+        }
+
+        .cards{
+            display:flex;
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            width:250px;
+            box-shadow:0px 4px 10px rgba(0,0,0,.1);
+        }
+
+        h1{
+            color:#003366;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Department Resource & Budget Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h2>$250,000</h2>
+<p>Total Budget</p>
+</div>
+
+<div class="card">
+<h2>$175,000</h2>
+<p>Total Spent</p>
+</div>
+
+<div class="card">
+<h2>$75,000</h2>
+<p>Remaining</p>
+</div>
+
+</div>
+
+<br>
+
+<canvas id="budgetChart"></canvas>
+
+<script>
+
+new Chart(
+document.getElementById("budgetChart"),
+{
+type:'bar',
+
+data:{
+labels:[
+'Equipment',
+'Travel',
+'Payroll',
+'Software'
+],
+
+datasets:[{
+label:'Budget',
+data:[
+50000,
+30000,
+120000,
+50000
+]
+}]
+}
+}
+)
+
+</script>
+
+</body>
+</html>
