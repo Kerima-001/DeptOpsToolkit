@@ -1,4 +1,4 @@
-# 🎓 Department Resource & Operations Management Platform
+#  Department Resource & Operations Management Platform
 
 <div align="center">
 
