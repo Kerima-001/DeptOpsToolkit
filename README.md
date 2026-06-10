@@ -61,17 +61,17 @@ Track and manage departmental finances with detailed budget monitoring and repor
 
 ### Features
 
-✅ Budget Allocation
+Budget Allocation
 
-✅ Expense Tracking
+Expense Tracking
 
-✅ Spending Forecasts
+Spending Forecasts
 
-✅ Department Expenditure Analysis
+Department Expenditure Analysis
 
-✅ Financial Reports
+Financial Reports
 
-✅ Budget Approval Workflow
+Budget Approval Workflow
 
 ### Budget Categories
 
